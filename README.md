@@ -13,19 +13,26 @@ xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install node
 ```
+Navigate up 2 directories if you encounter a permissions error about not being able to access parent directories. Then try to brew install node again.
+
 
 To get started with this template, first install the npm dependencies:
 
+In iTerm navigate to the repsmart-web dir before running the next command. /Documents/Github/repsmart-web probably.
 ```bash
 npm install
 ```
+Close and reopen iTerm if you run into any errors. Then try npm install again.
 
 Next, run the development server:
 
 ```bash
 npm run dev
 ```
+Allow incoming connections if it prompts you.
+
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
