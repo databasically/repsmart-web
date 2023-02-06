@@ -6,6 +6,15 @@ Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Ta
 
 ## Getting started
 
+Install dependencies:
+
+```bash
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+
 To get started with this template, first install the npm dependencies:
 
 ```bash
