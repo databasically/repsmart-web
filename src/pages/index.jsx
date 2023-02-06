@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RepSmart - The Software for Reps</title>
+        <title>RepSmart - Software for HVACR Manufacturer Representatives</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Tools to quote faster, manage better, and win more for manufacturer representatives of the HVACR industry."
         />
       </Head>
       <Header />
