@@ -12,27 +12,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Effective CRM',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Keep tabs on your touchpoints to look like a rock star to your prospects and clients.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Intelligent quoting',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Produce professional and accurate bids that elevate you in your customer's eyes, and put you at the top of their bid pile.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Meaningful sales reports',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "Gain insight into the real numbers that make up your business so that you can make critical decisions on how to take your business to the next level.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Project management',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      "Keep track of your jobs from the moment you win to the moment you're sending your client a thank you card.",
     image: screenshotReporting,
   },
 ]
@@ -58,7 +58,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="TODO Features for running your books"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
@@ -70,13 +70,12 @@ export function PrimaryFeatures() {
         unoptimized
       />
       <Container className="relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+        <div className="max-w-3xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Smarter than the competition<br />Smarter with RepSmart
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            When you have a tool that quotes quickly, reports meaningfully, and manages completely, you look smart.
           </p>
         </div>
         <Tab.Group
