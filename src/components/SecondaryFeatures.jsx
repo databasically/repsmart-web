@@ -13,7 +13,7 @@ const features = [
     name: 'Reporting',
     summary: 'Stay on top of things with always up-to-date reporting features.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Meaningful data gives you a clear picture of where you have been and leads to meaningful action.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -44,11 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Quoting',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Never lose track of dependencies and complications that make your quote work.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'We keep you nimble as you build complex quotes with highly technical solutions. You need to move quickly to get your bid to the top of the pile.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,9 +74,9 @@ const features = [
   {
     name: 'Contacts',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Organize all of your contacts and touch points to take care of your prospects.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Never forget a communication, a followup, a birthday, or a due date with our focused CRM features.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
