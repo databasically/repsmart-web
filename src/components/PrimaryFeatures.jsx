@@ -14,25 +14,25 @@ const features = [
   {
     title: 'Effective CRM',
     description:
-      "Keep tabs on your touchpoints to look like a rock star to your prospects and clients.",
+      "Track your touchpoints to stay front-of-mind with your prospects and clients. Make a good impression by remembering the small things.",
     image: screenshotPayroll,
   },
   {
-    title: 'Intelligent quoting',
+    title: 'Intelligent Quoting',
     description:
-      "Produce professional and accurate bids that elevate you in your customer's eyes, and put you at the top of their bid pile.",
+      "Produce professional bids that elevate you and make you stand out. Improve accuracy and instill trust, putting your bid at the top of the pile.",
     image: screenshotExpenses,
   },
   {
-    title: 'Meaningful sales reports',
+    title: 'Meaningful Sales Reports',
     description:
-      "Gain insight into the real numbers that make up your business so that you can make critical decisions on how to take your business to the next level.",
+      "Get insight into the real numbers that make up your business. Make critical decisions on how to take your business to the next level.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Project management',
+    title: 'Project Management',
     description:
-      "Keep track of your jobs from the moment you win to the moment you're sending your client a thank you card.",
+      "Keep track of jobs from the win to the thank you card. Deliver amazing results that your clients will remember. ",
     image: screenshotReporting,
   },
 ]
