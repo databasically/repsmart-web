@@ -219,7 +219,7 @@ export function SecondaryFeatures() {
             Simplify everyday business tasks.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Don't get bogged down in complexities. Let RepSmart handle it so you can focus more on important decisions to grow your business.
+            Don't get bogged down in complexities. Let RepSmart handle it so you can focus on the important decisions that grow your business.
           </p>
         </div>
         <FeaturesMobile />
