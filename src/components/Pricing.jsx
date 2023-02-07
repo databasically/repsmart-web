@@ -110,14 +110,13 @@ export function Pricing() {
             for everyone.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Our software works for businesses of many sizes. 
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Starter"
-            price="$9"
+            price="$79"
             description="Good for anyone who is self-employed and just getting started."
             href="/register"
             features={[
@@ -131,12 +130,12 @@ export function Pricing() {
           <Plan
             featured
             name="Small business"
-            price="$15"
+            price="$99"
             description="Perfect for small / medium sized businesses."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
+              'Send unlimited quotes',
+              'track unlimited touch points',
               'Track up to 50 expenses per month',
               'Automated payroll support',
               'Export up to 12 reports',
@@ -146,7 +145,7 @@ export function Pricing() {
           />
           <Plan
             name="Enterprise"
-            price="$39"
+            price="$199"
             description="For even the biggest enterprise companies."
             href="/register"
             features={[
