@@ -8,6 +8,7 @@ import avatarImage4 from '@/images/avatars/avatar-4.png'
 import avatarImage5 from '@/images/avatars/avatar-5.png'
 
 const testimonials = [
+
   [
     {
       content:
@@ -68,7 +69,9 @@ const testimonials = [
       },
     },
   ],
-]
+] 
+
+
 
 function QuoteIcon(props) {
   return (
@@ -91,9 +94,7 @@ export function Testimonials() {
             Loved by businesses worldwide.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Our customers have won millions of dollars in bids, sent millions of touchpoints, and improved their customer releationships.
           </p>
         </div>
         <ul
