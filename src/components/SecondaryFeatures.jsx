@@ -11,9 +11,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    summary: 'Knowing your numbers means knowing your business anytime... everytime.',
     description:
-      'Meaningful data gives you a clear picture of where you have been and leads to meaningful action.',
+      'Get comfortable with your business metrics by using meaningful reports that provide you a clear picture of where you have been and where you are going.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,9 +46,9 @@ const features = [
   {
     name: 'Quoting',
     summary:
-      'Never lose track of dependencies and complications that make your quote work.',
+      'Handle dependencies and complications accurately to put your mind at ease.',
     description:
-      'We keep you nimble as you build complex quotes with highly technical solutions. You need to move quickly to get your bid to the top of the pile.',
+      'Stay nimble as you navigate complex quotes with highly technical solutions. RepSmart quoting eliminates confusion, letting you to quickly iterate and adapt with confidence.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -76,7 +76,7 @@ const features = [
     summary:
       'Organize all of your contacts and touch points to take care of your prospects.',
     description:
-      'Never forget a communication, a followup, a birthday, or a due date with our focused CRM features.',
+      'Never forget a followup (or even a birthday) with our easy-to-use CRM so that you stay front of mind to your prospects and clients.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -219,8 +219,7 @@ export function SecondaryFeatures() {
             Simplify everyday business tasks.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Don't get bogged down in complexities. Let RepSmart handle it so you can focus more on important decisions to grow your business.
           </p>
         </div>
         <FeaturesMobile />
