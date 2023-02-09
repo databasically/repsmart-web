@@ -113,8 +113,10 @@ export function Pricing() {
             Our software works for businesses of many sizes. 
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
-          <Plan
+        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-100 lg:grid-cols-1 xl:mx-0 xl:gap-x-8">
+{/*        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8"> 
+*/}
+{/*          <Plan
             name="Starter"
             price="$79"
             description="Good for anyone who is self-employed and just getting started."
@@ -127,6 +129,7 @@ export function Pricing() {
               'Export up to 3 reports',
             ]}
           />
+*/}
           <Plan
             featured
             name="Small business"
@@ -143,7 +146,7 @@ export function Pricing() {
               'Track in multiple currencies',
             ]}
           />
-          <Plan
+{/*          <Plan
             name="Enterprise"
             price="$199"
             description="For even the biggest enterprise companies."
@@ -156,6 +159,7 @@ export function Pricing() {
               'Export up to 25 reports, including TPS',
             ]}
           />
+*/}
         </div>
       </Container>
     </section>
