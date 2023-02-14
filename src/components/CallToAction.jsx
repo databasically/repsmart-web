@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Take control. Try our software and see how you and your customers can have a better experience.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="https://savvycal.com/kevin-deneault/9868d09d" color="white" className="mt-10">
             Buy 3 months Get 3 months free
           </Button>
         </div>
