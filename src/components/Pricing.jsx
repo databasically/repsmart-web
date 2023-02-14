@@ -120,7 +120,7 @@ export function Pricing() {
             name="Trial"
             price="Free"
             description="Good for anyone who wants to give it a try."
-            href="/register"
+            href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
               'Send 10 quotes and invoices',
               'Connect up to 2 bank accounts',
@@ -135,7 +135,7 @@ export function Pricing() {
             name="Small business"
             price="$99"
             description="Perfect for small / medium sized businesses."
-            href="/register"
+            href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
               'Send unlimited quotes',
               'track unlimited touch points',
@@ -150,7 +150,7 @@ export function Pricing() {
             name="Enterprise"
             price="Contact Us"
             description="For even the biggest enterprise companies."
-            href="/register"
+            href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
               'Send unlimited quotes and invoices',
               'Connect up to 15 bank accounts',
