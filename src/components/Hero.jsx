@@ -36,7 +36,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="https://savvycal.com/kevin-deneault/9868d09d">Schedule Demo</Button>
-        <Button
+{/*        <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
         >
@@ -48,6 +48,7 @@ export function Hero() {
           </svg>
           <span className="ml-3">Watch video</span>
         </Button>
+*/}
       </div>
 {/*   <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
