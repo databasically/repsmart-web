@@ -80,15 +80,18 @@ function Plan({ name, price, description, href, features, featured = false }) {
           </li>
         ))}
       </ul>
-      <Button
-        href={href}
-        variant={featured ? 'solid' : 'outline'}
-        color="white"
-        className="mt-8"
-        aria-label={`Get started with the ${name} plan for ${price}`}
-      >
-        Get started
-      </Button>
+      { featured &&
+        <Button
+          href={href}
+          variant={featured ? 'solid' : 'outline'}
+          color="white"
+          className="mt-8"
+          aria-label={`Get started with the ${name} plan for ${price}`}
+        >
+          Get started
+        </Button>
+      }
+      
     </section>
   )
 }
@@ -117,16 +120,12 @@ export function Pricing() {
 {/*     <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8"> 
 */}
           <Plan
-            name="Trial"
-            price="Free"
-            description="Good for anyone who wants to give it a try."
+            name=""
+            price=""
+            description=""
             href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+
             ]}
           />
 
@@ -147,16 +146,12 @@ export function Pricing() {
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="Contact Us"
-            description="For even the biggest enterprise companies."
+            name=""
+            price=""
+            description=""
             href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+
             ]}
           />
 
