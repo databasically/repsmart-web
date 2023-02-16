@@ -131,9 +131,9 @@ export function Pricing() {
 
           <Plan
             featured
-            name="Manufacturer Representatives"
+            name="* per month, per user"
             price="$99"
-            description="Perfect for small / medium sized businesses."
+            description="Perfect for the small-medium manufacturer representative."
             href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
               'Send unlimited quotes',
