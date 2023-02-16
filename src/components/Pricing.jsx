@@ -131,18 +131,18 @@ export function Pricing() {
 
           <Plan
             featured
-            name="Small business"
+            name="Manufacturer Representatives"
             price="$99"
             description="Perfect for small / medium sized businesses."
             href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
               'Send unlimited quotes',
-              'track unlimited touch points',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Track unlimited touch points',
+              'Create unlimited product templates',
+              'Backlog tracking',
+              'Sales performance analysis',
+              'Commissions splits',
+              'Quote & Profit dashboard',
             ]}
           />
           <Plan
