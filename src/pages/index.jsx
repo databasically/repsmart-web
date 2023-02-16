@@ -4,6 +4,7 @@ import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { Favicon } from '@/components/Favicon'
 import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
@@ -16,9 +17,10 @@ export default function Home() {
     <>
       <Head>
         <title>RepSmart - Software for HVACR Manufacturer Representatives</title>
+        <Favicon />
         <meta
           name="description"
-          content="Tools to quote faster, manage better, and win more for manufacturer representatives of the HVACR industry."
+          content="Tools to quote faster, manage better, and win more for manufacturer representatives of the commercial HVAC&R industry."
         />
       </Head>
       <Header />
