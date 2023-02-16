@@ -132,7 +132,7 @@ export function Pricing() {
           <Plan
             featured
             name="* per month, per user"
-            price="$99"
+            price="$100"
             description="Perfect for the small-medium manufacturer representative."
             href="https://savvycal.com/kevin-deneault/9868d09d"
             features={[
