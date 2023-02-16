@@ -28,7 +28,7 @@ export function Hero() {
         for manufacturer representatives.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        RepSmart was made for manufacturer representatives in HVAC&amp;R.
+        RepSmart was made for manufacturer representatives in commercial HVAC&amp;R.
         With unique requirements and dependencies we know how important accuracy and tracking can be.
         That's why RepSmart is the smart choice to give your clients the best experience.
         We collaborate closely with reps in the HVAC&amp;R industry so that
