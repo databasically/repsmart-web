@@ -32,7 +32,7 @@ export function Hero() {
         With unique requirements and dependencies we know how important accuracy and tracking can be.
         That's why RepSmart is the smart choice to give your clients the best experience.
         We collaborate closely with reps in the HVAC&amp;R industry so that
-        RepSmart stays smart as the HVAC&amp;R industry evolves.
+        RepSmart stays smart as commercial HVAC&amp;R evolves.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="https://savvycal.com/kevin-deneault/9868d09d">Schedule Demo</Button>
