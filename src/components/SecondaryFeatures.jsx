@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/rs-2-contacts-blurred.png'
+import screenshotContacts from '@/images/screenshots/rs-2-contacts.png'
 import screenshotInventory from '@/images/screenshots/rs-2-quoting.png'
 import screenshotProfitLoss from '@/images/screenshots/rs-2-reporting.png'
 
