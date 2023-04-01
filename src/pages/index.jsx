@@ -64,7 +64,7 @@ export default function Home() {
             gtag('js', new Date());
             gtag('config', 'G-WM18GH5PLN', {
               'page_path': window.location.pathname,
-              'debug_mode': ${!process.env.production}
+              'debug_mode': false
             });
           `,
          }}
