@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
@@ -9,6 +10,7 @@ import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import * as gtag from "@/components/GoogleAnalytics"
 {/*import { Testimonials } from '@/components/Testimonials'
 */}
 
@@ -35,6 +37,23 @@ export default function Home() {
         <Faqs />
       </main>
       <Footer />
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></Script>
+      <Script
+        id='google-analytics'
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WM18GH5PLN', {
+              'page_path': window.location.pathname,
+              'debug_mode': true
+            });
+          `,
+         }}
+      />
+
     </>
   )
 }
