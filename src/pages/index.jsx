@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import * as gtag from "@/components/GoogleAnalytics"
+import { useRouter } from 'next/router';
+import { useEffect } from "react";
 
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
@@ -10,11 +13,24 @@ import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import * as gtag from "@/components/GoogleAnalytics"
 {/*import { Testimonials } from '@/components/Testimonials'
 */}
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <>
       <Head>
@@ -48,7 +64,7 @@ export default function Home() {
             gtag('js', new Date());
             gtag('config', 'G-WM18GH5PLN', {
               'page_path': window.location.pathname,
-              'debug_mode': true
+              'debug_mode': ${!process.env.production}
             });
           `,
          }}
