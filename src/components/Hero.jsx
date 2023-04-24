@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import logoFulton from '@/images/logos/fulton-logo.svg'
+import logoEnervex from '@/images/logos/enervex-logo.svg'
+import logoGrundfos from '@/images/logos/grundfos-logo.svg'
+import logoCarrier from '@/images/logos/carrier-logo.svg'
+import logoSiemens from '@/images/logos/siemens-logo.svg'
+import logoBosch from '@/images/logos/bosch-logo.svg'
 
 export function Hero() {
   return (
@@ -46,9 +46,9 @@ export function Hero() {
         </Button>
 */}
       </div>
-{/*   <div className="mt-36 lg:mt-44">
+   <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Trusted to quote manufacturers like these
         </p>
         <ul
           role="list"
@@ -56,14 +56,14 @@ export function Hero() {
         >
           {[
             [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
+              { name: 'Fulton', logo: logoFulton },
+              { name: 'Enervex', logo: logoEnervex },
+              { name: 'Grundfos', logo: logoGrundfos },
             ],
             [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
+              { name: 'Carrier', logo: logoCarrier },
+              { name: 'Siemens', logo: logoSiemens },
+              { name: 'Bosch', logo: logoBosch },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
@@ -81,7 +81,6 @@ export function Hero() {
           ))}
         </ul>
       </div>
-*/}      
     </Container>
   )
 }
