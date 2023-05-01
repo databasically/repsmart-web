@@ -72,10 +72,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-3xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Smarter than the competition<br />Smarter with RepSmart
+            Be Smarter than the competition<br />Be Smarter with RepSmart
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            When you have a tool that quotes quickly, reports meaningfully, and manages completely, you look smart.
+            When you have a tool that quotes quickly, reports meaningfully, and manages completely, you look smart and win more.
           </p>
         </div>
         <Tab.Group

@@ -27,7 +27,7 @@ export function CallToAction() {
             Take control. Try our software and see how you and your customers can have a better experience.
           </p>
           <Button href="https://savvycal.com/kevin-deneault/9868d09d" color="white" className="mt-10">
-            Get Started Today
+            Schedule a Quick Demo With Co-Founders
           </Button>
         </div>
       </Container>

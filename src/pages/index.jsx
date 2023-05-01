@@ -46,11 +46,11 @@ export default function Home() {
         <Hero />
         <PrimaryFeatures />
         <SecondaryFeatures />
-        <CallToAction />
 {/*        <Testimonials />
 */}
         <Pricing />
         <Faqs />
+        <CallToAction />
       </main>
       <Footer />
       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></Script>

@@ -94,7 +94,7 @@ export function Testimonials() {
             Loved by businesses worldwide.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our customers have won millions of dollars in bids, sent millions of touchpoints, and improved their customer releationships.
+            Our customers have won millions of dollars in bids, sent millions of touchpoints, and improved their customer relationships.
           </p>
         </div>
         <ul

@@ -24,7 +24,7 @@ const faqs = [
     {
       question: 'Can I prepay for a year?',
       answer:
-        'Maybe, reach out and let’s talk.',
+        'Reach out and let’s talk. help@repsmart.co',
     },
     {
       question:
