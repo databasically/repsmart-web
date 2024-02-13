@@ -40,6 +40,19 @@ export default function Home() {
           name="description"
           content="Tools to quote faster, manage better, and win more for manufacturer representatives of the commercial HVAC&R industry."
         />
+        <Script
+        id="ms_clarity"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+          (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", 'kv5abmij1c');`,
+        }}
+        />
+
       </Head>
       <Header />
       <main>
@@ -69,7 +82,6 @@ export default function Home() {
           `,
          }}
       />
-
     </>
   )
 }
