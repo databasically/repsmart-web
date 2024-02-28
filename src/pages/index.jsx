@@ -40,19 +40,6 @@ export default function Home() {
           name="description"
           content="Tools to quote faster, manage better, and win more for manufacturer representatives of the commercial HVAC&R industry."
         />
-        <Script
-        id="ms_clarity"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-          (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", 'kv5abmij1c');`,
-        }}
-        />
-
       </Head>
       <Header />
       <main>
@@ -66,22 +53,7 @@ export default function Home() {
         <CallToAction />
       </main>
       <Footer />
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></Script>
-      <Script
-        id='google-analytics'
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-WM18GH5PLN', {
-              'page_path': window.location.pathname,
-              'debug_mode': false
-            });
-          `,
-         }}
-      />
+
     </>
   )
 }
