@@ -112,7 +112,7 @@ export function Header() {
             </div> */}
             <Button href="https://savvycal.com/kevin-deneault/9868d09d" color="blue">
               <span>
-                Schedule <span className="hidden lg:inline">Demo</span>
+                Get <span className="hidden lg:inline">Started</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">

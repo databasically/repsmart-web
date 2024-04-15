@@ -31,7 +31,7 @@ export function Hero() {
         RepSmart is for HVACR manufacturer representatives who want more from quoting, forecasting, and sales reports.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="https://savvycal.com/kevin-deneault/9868d09d">Schedule Demo</Button>
+        <Button href="https://savvycal.com/kevin-deneault/9868d09d">Get Started</Button>
 {/*        <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
